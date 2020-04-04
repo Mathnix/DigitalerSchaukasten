@@ -1,0 +1,106 @@
+<!--Erstes Dokument, das angezeigt wird-->
+
+<!--Doctype legt fest welche Syntax/Sprache (bspw. HTML/XHTML) verwendet wird und welche Regeln gelten-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Beginn des eigentlichen HTML Dokuments-->
+<head>
+<!--Meta Daten, welcher Zeichensatz, welche Größe-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="30; URL=http://schaukasten/schaukasten/index.php">
+
+<!--Titel für Tab/Lesezeichen etc-->
+<title>Schaukasten</title>
+
+<!--Definieren, wie bestimmte Elemente gerendert werden-->
+<style>
+body {background:#f19120; margin:0px 0 10px 0; font-size:10pt; font-family: Helvetica, Arial, sans-serif; color:#f19120; overflow:hidden;}
+h0 { font-size:30pt; font-weight:bold; text-align:center; color:#ffffff;}
+h1 { font-size:20pt; font-weight:bold; text-align:center; color:#ffffff;}
+h3 { font-size:16pt; text-align:left; color:#ffffff;}
+h4 { font-size:14pt; text-align:left; color:#ffffff;}
+h5 { font-size:12pt; text-align:left; color:#ffffff;}
+
+
+#title {background:#f19120; position: absolute; width:1020px; top: 250px; right:0px; left: 20px; height: 50px; z-index:-1; float:left; padding:10px 10px 10px 10px;}
+#veranstaltung {background:#f6b568; position: absolute; width:1020px; top: 350px; right:0px; left: 20px; height: 1450px; z-index:1; float:left; padding:5px 5px 5px 5px;}
+
+
+#header {top:50px; right:0px;left:0px; height:300px; z-index:6; float:left; padding: 10px 10px 10px 10px;}
+
+#dots {margin:0; position:fixed; bottom:120px; height:10px; z-index:6; width:100%; text-align:center;}
+#footer {background:#f19120; margin:0; position:fixed; bottom:10px; height:100px; z-index:5;}
+#footertext {left:100px; right:150px; position:fixed; bottom:0px; z-index:5;}
+
+.center {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 320px;
+  padding: 0px 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 2px;
+  text-align: center;
+  height: 348px;
+  background-color: #f19120;
+}
+
+</style>
+
+</head>
+
+<!--Konkreter Inhalt in die oben definierten Bereiche-->
+<body>
+
+<!--Bereich Willkommen-->
+<div id="header">
+
+</div>
+
+<!--Bereich Titel-->
+<div id="title">
+    
+</div>
+
+<!--Bereich Veranstaltungsname-->
+<div id="veranstaltung">
+    
+</div>
+
+<!--Bereich Dots-->
+<div id="dots">
+    <img src="gray.png"><img src="gray.png"><img src="gray.png"><img src="gray.png"><img src="white.png">
+</div>
+
+<!--Bereich der Fußzeile-->
+<div id="footer">
+    <!--Bilder in Fußzeile-->
+    
+    <!--Text in Fußzeile-->
+    <div id="footertext">
+	
+    </div>
+
+</div>
+
+</body>
+
+</html>
