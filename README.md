@@ -45,16 +45,16 @@ Dazu muss eine solche Seite mit einem Texteditor am PC geöffnet werden - dabei 
 
 ### Die Struktur einer Seite
 
-Alle Zeilen die in '<!---->' eingefasst sind, sind sogenannte Kommentare. Sie haben keinen funktionalen Nutzen, sondern erklären, was die darunter befindlichen Zeilen tun.
+Alle Zeilen die in `<!---->` eingefasst sind, sind sogenannte Kommentare. Sie haben keinen funktionalen Nutzen, sondern erklären, was die darunter befindlichen Zeilen tun.
 Da gerne einmal durchschauen, was es so gibt, alle wichtigen Anpassungen werden gleich erklärt.
 
-Unter '<!--Definieren, wie bestimmte Elemente gerendert werden-->' werden einzelne Bereiche angelegt (erkennbar durch den # zu Beginn der Zeile) und festgelegt, wie groß die Bereiche sind und welche Farbe sie haben. So enstehen auf den einzelnen Seiten auch die orangenen Kästchen. Um ein wenig zu verstehen, die das Ganze funktioniert, bietet es sich an dort mit den Werten etwas herumzuspielen und sich dann mal anzusehen, wie das Ganze aussieht. Dazu die Seite als html-Seite abspeichern (aus Seite1.php wird Seite1.html) und diese entweder per Doppelklick oder über "rechte Maustaste -> öffnen mit" im Browser öffnen.
+Unter `<!--Definieren, wie bestimmte Elemente gerendert werden-->` werden einzelne Bereiche angelegt (erkennbar durch den # zu Beginn der Zeile) und festgelegt, wie groß die Bereiche sind und welche Farbe sie haben. So enstehen auf den einzelnen Seiten auch die orangenen Kästchen. Um ein wenig zu verstehen, die das Ganze funktioniert, bietet es sich an dort mit den Werten etwas herumzuspielen und sich dann mal anzusehen, wie das Ganze aussieht. Dazu die Seite als html-Seite abspeichern (aus Seite1.php wird Seite1.html) und diese entweder per Doppelklick oder über "rechte Maustaste -> öffnen mit" im Browser öffnen.
 WICHTIG Die Seiten sind für einen hochkant verwendeten FullHD Bildschirm gedacht, also einer Auflösung von 1080x1920. Hat man einen PC mit FullHD Auflösung kann man den etwa um 90 Grad rotieren um das zu simulieren. Sonst kann man zumindest einen kleinen Eindruck vo Design bekommen, in dem man das Browserfenster kleiner zieht.
 
-Ab dem Bereich '<!--Konkreter Inhalt in die oben definierten Bereiche-->' kann nun der eigentliche Inhalt angepasst werden. Das passiert in HTML. Einen sehr guten Einlick (auf Englisch) gibt hier https://www.w3schools.com/html/. 
+Ab dem Bereich `<!--Konkreter Inhalt in die oben definierten Bereiche-->` kann nun der eigentliche Inhalt angepasst werden. Das passiert in HTML. Einen sehr guten Einlick (auf Englisch) gibt hier https://www.w3schools.com/html/. 
 
 Natürlich können auch einfach selbst Seiten erstellt und/oder bestehende Seite verändert werden. Auf eine Besonderheit ist hier zu achten. In einer der oberen (Meta-)Zeilen sorgt dafür, dass die Seiten automatisch nacheinander erscheinen. Das wird durch
-"<meta http-equiv="refresh" content="30; URL=http://pischaukasten/schaukasten/index2.php">" erreicht.
+`<meta http-equiv="refresh" content="30; URL=http://pischaukasten/schaukasten/index2.php">` erreicht.
 Die URL ist dabei anzupassen, wenn ihr nicht der Anleitung folgt, sondern eure eigene Homepage verwendet. In diesem Fall muss die URL der Link auf die jeweils nächste Seite sein, die angezeigt wird. Die letzte Seite in dieser Kette verweist wiederum auf die Erste.
 
 ## Grundeinrichtung des Pi
