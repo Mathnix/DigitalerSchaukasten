@@ -1,5 +1,8 @@
 # Was ist ein digitaler Schaukasten und wie richte ich ihn ein
 
+**Copyright:** Die Idee des Digitalen Schaukastens auf Basis eines Raspberry Pis stammt ursprünglich von Lutz Neumeier und wurde unter http://neumedier.de/schaukasten.html unter ccbysa veröffentlicht.
+Die  Idee wurde von mir jedoch auf Grund sicherheittechnischer Bedenken, insbesondere auf Grund der "upload.php" verändert. In meiner Version werden die Seiten ausschließlich über einen lokalen Webserver bereitgestellt und sind nicht "von außen" verfügbar.
+
 **Autor:** Lena Carta  
 **Datum:** 04.04.2020    
 
